@@ -7,6 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "BASETabBarController.h"
+#import "BASENavigationController.h"
+
+#import "FHomeController.h"
+#import "FMsgController.h"
+#import "FDiscoverController.h"
+#import "FSettingController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +24,41 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    
+    
+    BASETabBarController *tabBarController = [[BASETabBarController alloc] init];
+    
+    FHomeController     *controllerHome = [[FHomeController alloc] init];
+    FSettingController  *controllerSetting = [[FSettingController alloc] init];
+    FMsgController      *controllerMsg = [[FMsgController alloc] init];
+    FDiscoverController *controllerDiscover = [[FDiscoverController alloc] init];
+    BASENavigationController *navCtrlHome = [[BASENavigationController alloc] initWithRootViewController:controllerHome];
+    BASENavigationController *navCtrlMsg = [[BASENavigationController alloc] initWithRootViewController:controllerMsg];
+    BASENavigationController *navCtrlDiscover = [[BASENavigationController alloc] initWithRootViewController:controllerDiscover];
+    BASENavigationController *navCtrlSetting = [[BASENavigationController alloc] initWithRootViewController:controllerSetting];
+    UITabBarItem *itemHome = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemTopRated tag:1];
+    UITabBarItem *itemSetting = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemBookmarks tag:2];
+    UITabBarItem *itemMsg = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemFeatured tag:1];
+    UITabBarItem *itemDiscover = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemMostViewed tag:1];
+    [navCtrlHome setTabBarItem:itemHome];
+    [navCtrlMsg setTabBarItem:itemMsg];
+    [navCtrlDiscover setTabBarItem:itemDiscover];
+    [navCtrlSetting setTabBarItem:itemSetting];
+    
+    [tabBarController setViewControllers:@[navCtrlHome,navCtrlMsg,navCtrlDiscover,navCtrlSetting]];
+    
+    
+    
+    self.window.rootViewController = tabBarController;
+    [self.window makeKeyAndVisible];
+
+    
+    
     return YES;
 }
 

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		636543C81BFCA0A600F4491D /* UIView+Ghost.m in Sources */ = {isa = PBXBuildFile; fileRef = 636543C71BFCA0A600F4491D /* UIView+Ghost.m */; };
+		636543CC1BFCA0EB00F4491D /* BASENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636543CB1BFCA0EB00F4491D /* BASENavigationController.m */; };
+		636543CF1BFCA13700F4491D /* BASETabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636543CE1BFCA13700F4491D /* BASETabBarController.m */; };
+		636543D21BFCA17300F4491D /* BASEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636543D11BFCA17300F4491D /* BASEViewController.m */; };
+		636543D61BFD684500F4491D /* FHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636543D51BFD684500F4491D /* FHomeController.m */; };
+		636543D91BFD68AE00F4491D /* UINavigationController+Ghost.m in Sources */ = {isa = PBXBuildFile; fileRef = 636543D81BFD68AE00F4491D /* UINavigationController+Ghost.m */; };
+		638DB61F1BFDCF2400159FC1 /* FMsgController.m in Sources */ = {isa = PBXBuildFile; fileRef = 638DB61E1BFDCF2400159FC1 /* FMsgController.m */; };
+		638DB6221BFDCF3400159FC1 /* FSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 638DB6211BFDCF3400159FC1 /* FSettingController.m */; };
+		638DB6261BFDCF9000159FC1 /* FDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 638DB6251BFDCF9000159FC1 /* FDiscoverController.m */; };
 		63E9E2F91BF8C382007C5292 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9E2F81BF8C382007C5292 /* main.m */; };
 		63E9E2FC1BF8C382007C5292 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9E2FB1BF8C382007C5292 /* AppDelegate.m */; };
 		63E9E2FF1BF8C382007C5292 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9E2FE1BF8C382007C5292 /* ViewController.m */; };
@@ -16,6 +25,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		636543C61BFCA0A600F4491D /* UIView+Ghost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Ghost.h"; sourceTree = "<group>"; };
+		636543C71BFCA0A600F4491D /* UIView+Ghost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Ghost.m"; sourceTree = "<group>"; };
+		636543CA1BFCA0EB00F4491D /* BASENavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BASENavigationController.h; sourceTree = "<group>"; };
+		636543CB1BFCA0EB00F4491D /* BASENavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BASENavigationController.m; sourceTree = "<group>"; };
+		636543CD1BFCA13700F4491D /* BASETabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BASETabBarController.h; sourceTree = "<group>"; };
+		636543CE1BFCA13700F4491D /* BASETabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BASETabBarController.m; sourceTree = "<group>"; };
+		636543D01BFCA17300F4491D /* BASEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BASEViewController.h; sourceTree = "<group>"; };
+		636543D11BFCA17300F4491D /* BASEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BASEViewController.m; sourceTree = "<group>"; };
+		636543D41BFD684500F4491D /* FHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHomeController.h; sourceTree = "<group>"; };
+		636543D51BFD684500F4491D /* FHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHomeController.m; sourceTree = "<group>"; };
+		636543D71BFD68AE00F4491D /* UINavigationController+Ghost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Ghost.h"; sourceTree = "<group>"; };
+		636543D81BFD68AE00F4491D /* UINavigationController+Ghost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Ghost.m"; sourceTree = "<group>"; };
+		638DB61D1BFDCF2400159FC1 /* FMsgController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMsgController.h; sourceTree = "<group>"; };
+		638DB61E1BFDCF2400159FC1 /* FMsgController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMsgController.m; sourceTree = "<group>"; };
+		638DB6201BFDCF3400159FC1 /* FSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSettingController.h; sourceTree = "<group>"; };
+		638DB6211BFDCF3400159FC1 /* FSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSettingController.m; sourceTree = "<group>"; };
+		638DB6241BFDCF9000159FC1 /* FDiscoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDiscoverController.h; sourceTree = "<group>"; };
+		638DB6251BFDCF9000159FC1 /* FDiscoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDiscoverController.m; sourceTree = "<group>"; };
 		63E9E2F41BF8C382007C5292 /* fqah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fqah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E9E2F81BF8C382007C5292 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63E9E2FA1BF8C382007C5292 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +66,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		636543BD1BFCA04100F4491D /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				636543C31BFCA08100F4491D /* Controllers */,
+				636543C41BFCA0A600F4491D /* General */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		636543C31BFCA08100F4491D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				636543C91BFCA0C400F4491D /* Base */,
+				636543D31BFD681200F4491D /* Home */,
+				638DB61B1BFDCF0500159FC1 /* Message */,
+				638DB61C1BFDCF0500159FC1 /* Setting */,
+				638DB6231BFDCF7000159FC1 /* Discover */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		636543C41BFCA0A600F4491D /* General */ = {
+			isa = PBXGroup;
+			children = (
+				636543C51BFCA0A600F4491D /* Categories */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		636543C51BFCA0A600F4491D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				636543C61BFCA0A600F4491D /* UIView+Ghost.h */,
+				636543C71BFCA0A600F4491D /* UIView+Ghost.m */,
+				636543D71BFD68AE00F4491D /* UINavigationController+Ghost.h */,
+				636543D81BFD68AE00F4491D /* UINavigationController+Ghost.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		636543C91BFCA0C400F4491D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				636543CA1BFCA0EB00F4491D /* BASENavigationController.h */,
+				636543CB1BFCA0EB00F4491D /* BASENavigationController.m */,
+				636543CD1BFCA13700F4491D /* BASETabBarController.h */,
+				636543CE1BFCA13700F4491D /* BASETabBarController.m */,
+				636543D01BFCA17300F4491D /* BASEViewController.h */,
+				636543D11BFCA17300F4491D /* BASEViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		636543D31BFD681200F4491D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				636543D41BFD684500F4491D /* FHomeController.h */,
+				636543D51BFD684500F4491D /* FHomeController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		638DB61B1BFDCF0500159FC1 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				638DB61D1BFDCF2400159FC1 /* FMsgController.h */,
+				638DB61E1BFDCF2400159FC1 /* FMsgController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		638DB61C1BFDCF0500159FC1 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				638DB6201BFDCF3400159FC1 /* FSettingController.h */,
+				638DB6211BFDCF3400159FC1 /* FSettingController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		638DB6231BFDCF7000159FC1 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				638DB6241BFDCF9000159FC1 /* FDiscoverController.h */,
+				638DB6251BFDCF9000159FC1 /* FDiscoverController.m */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
 		63E9E2EB1BF8C382007C5292 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +174,7 @@
 		63E9E2F61BF8C382007C5292 /* fqah */ = {
 			isa = PBXGroup;
 			children = (
+				636543BD1BFCA04100F4491D /* Section */,
 				63E9E2FA1BF8C382007C5292 /* AppDelegate.h */,
 				63E9E2FB1BF8C382007C5292 /* AppDelegate.m */,
 				63E9E2FD1BF8C382007C5292 /* ViewController.h */,
@@ -149,9 +266,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				636543CF1BFCA13700F4491D /* BASETabBarController.m in Sources */,
 				63E9E2FF1BF8C382007C5292 /* ViewController.m in Sources */,
 				63E9E2FC1BF8C382007C5292 /* AppDelegate.m in Sources */,
+				636543D91BFD68AE00F4491D /* UINavigationController+Ghost.m in Sources */,
+				636543D21BFCA17300F4491D /* BASEViewController.m in Sources */,
+				636543CC1BFCA0EB00F4491D /* BASENavigationController.m in Sources */,
+				636543C81BFCA0A600F4491D /* UIView+Ghost.m in Sources */,
 				63E9E2F91BF8C382007C5292 /* main.m in Sources */,
+				638DB61F1BFDCF2400159FC1 /* FMsgController.m in Sources */,
+				638DB6261BFDCF9000159FC1 /* FDiscoverController.m in Sources */,
+				638DB6221BFDCF3400159FC1 /* FSettingController.m in Sources */,
+				636543D61BFD684500F4491D /* FHomeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +426,7 @@
 				63E9E30D1BF8C382007C5292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

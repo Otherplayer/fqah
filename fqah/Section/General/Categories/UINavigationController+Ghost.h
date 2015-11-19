@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UINavigationController (Ghost)
-
+- (void)applyApprenceWithBarTintColor:(UIColor *)tintColor fontColor:(UIColor *)fontColor;
 @end
