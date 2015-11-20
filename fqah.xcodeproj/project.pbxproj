@@ -16,6 +16,7 @@
 		638DB61F1BFDCF2400159FC1 /* FMsgController.m in Sources */ = {isa = PBXBuildFile; fileRef = 638DB61E1BFDCF2400159FC1 /* FMsgController.m */; };
 		638DB6221BFDCF3400159FC1 /* FSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 638DB6211BFDCF3400159FC1 /* FSettingController.m */; };
 		638DB6261BFDCF9000159FC1 /* FDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 638DB6251BFDCF9000159FC1 /* FDiscoverController.m */; };
+		638DB62E1BFDD33000159FC1 /* FQAHTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 638DB62D1BFDD33000159FC1 /* FQAHTableView.m */; };
 		63E9E2F91BF8C382007C5292 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9E2F81BF8C382007C5292 /* main.m */; };
 		63E9E2FC1BF8C382007C5292 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9E2FB1BF8C382007C5292 /* AppDelegate.m */; };
 		63E9E2FF1BF8C382007C5292 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9E2FE1BF8C382007C5292 /* ViewController.m */; };
@@ -25,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63047C0B1BFF12D50026CB62 /* AppGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppGlobal.h; sourceTree = "<group>"; };
+		63047C0C1BFF13460026CB62 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
 		636543C61BFCA0A600F4491D /* UIView+Ghost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Ghost.h"; sourceTree = "<group>"; };
 		636543C71BFCA0A600F4491D /* UIView+Ghost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Ghost.m"; sourceTree = "<group>"; };
 		636543CA1BFCA0EB00F4491D /* BASENavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BASENavigationController.h; sourceTree = "<group>"; };
@@ -43,6 +46,8 @@
 		638DB6211BFDCF3400159FC1 /* FSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSettingController.m; sourceTree = "<group>"; };
 		638DB6241BFDCF9000159FC1 /* FDiscoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDiscoverController.h; sourceTree = "<group>"; };
 		638DB6251BFDCF9000159FC1 /* FDiscoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDiscoverController.m; sourceTree = "<group>"; };
+		638DB62C1BFDD33000159FC1 /* FQAHTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQAHTableView.h; sourceTree = "<group>"; };
+		638DB62D1BFDD33000159FC1 /* FQAHTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQAHTableView.m; sourceTree = "<group>"; };
 		63E9E2F41BF8C382007C5292 /* fqah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fqah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E9E2F81BF8C382007C5292 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63E9E2FA1BF8C382007C5292 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -90,6 +95,7 @@
 		636543C41BFCA0A600F4491D /* General */ = {
 			isa = PBXGroup;
 			children = (
+				638DB6271BFDD2C300159FC1 /* Custom */,
 				636543C51BFCA0A600F4491D /* Categories */,
 			);
 			path = General;
@@ -155,6 +161,23 @@
 			path = Discover;
 			sourceTree = "<group>";
 		};
+		638DB6271BFDD2C300159FC1 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				638DB6281BFDD2D600159FC1 /* TableView */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		638DB6281BFDD2D600159FC1 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				638DB62C1BFDD33000159FC1 /* FQAHTableView.h */,
+				638DB62D1BFDD33000159FC1 /* FQAHTableView.m */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
 		63E9E2EB1BF8C382007C5292 = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				636543BD1BFCA04100F4491D /* Section */,
+				63047C0B1BFF12D50026CB62 /* AppGlobal.h */,
 				63E9E2FA1BF8C382007C5292 /* AppDelegate.h */,
 				63E9E2FB1BF8C382007C5292 /* AppDelegate.m */,
 				63E9E2FD1BF8C382007C5292 /* ViewController.h */,
@@ -182,6 +206,7 @@
 				63E9E3001BF8C382007C5292 /* Main.storyboard */,
 				63E9E3031BF8C382007C5292 /* Assets.xcassets */,
 				63E9E3051BF8C382007C5292 /* LaunchScreen.storyboard */,
+				63047C0C1BFF13460026CB62 /* PrefixHeader.pch */,
 				63E9E3081BF8C382007C5292 /* Info.plist */,
 				63E9E2F71BF8C382007C5292 /* Supporting Files */,
 			);
@@ -227,6 +252,7 @@
 				TargetAttributes = {
 					63E9E2F31BF8C382007C5292 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = G87548ZV66;
 					};
 				};
 			};
@@ -277,6 +303,7 @@
 				638DB61F1BFDCF2400159FC1 /* FMsgController.m in Sources */,
 				638DB6261BFDCF9000159FC1 /* FDiscoverController.m in Sources */,
 				638DB6221BFDCF3400159FC1 /* FSettingController.m in Sources */,
+				638DB62E1BFDD33000159FC1 /* FQAHTableView.m in Sources */,
 				636543D61BFD684500F4491D /* FHomeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,7 +347,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -342,6 +370,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "f641f620-6511-40e9-b010-3baa1e5982c4";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +393,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -379,6 +409,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "f641f620-6511-40e9-b010-3baa1e5982c4";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -389,10 +420,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Otherplayer/Desktop/fqah/PrefixHeader.pch;
 				INFOPLIST_FILE = fqah/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Otherplayer.fqah;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -400,10 +438,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Otherplayer/Desktop/fqah/PrefixHeader.pch;
 				INFOPLIST_FILE = fqah/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Otherplayer.fqah;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
