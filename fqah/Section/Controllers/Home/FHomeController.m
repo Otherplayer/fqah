@@ -19,6 +19,10 @@
     [view setBackgroundColor:[UIColor redColor]];
     [self.view addSubview:view];
     
+    
+    
+    NSLog(@"===ssadfadfs");
+    NSLog(@"===ssadfadfs");
 }
 
 @end

@@ -12,11 +12,26 @@
 
 
 
+
+
+
+
 //格式化log
-#define NSLog(FORMAT, ...) fprintf(stderr,"%s\n", [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+//#ifdef DEBUG
+//#define FQAHLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+//#else
+//#define FQAHLog(...)
+//#endif
 
 #ifdef DEBUG
-#define NSLog(FORMAT, ...) fprintf(stderr,"%s\n", [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#define NSLog(format, ...) do { \
+fprintf(stderr, "<%s : %d> %s\n", \
+[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], \
+__LINE__, __func__); \
+(NSLog)((format), ##__VA_ARGS__); \
+fprintf(stderr, \
+"''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''\n" \
+);} while (0)
 #else
 #define NSLog(...)
 #endif
