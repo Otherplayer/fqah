@@ -20,7 +20,6 @@
     [self.view addSubview:view];
     
     
-    
     NSLog(@"===ssadfadfs");
     NSLog(@"===ssadfadfs");
 }
