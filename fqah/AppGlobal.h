@@ -19,7 +19,9 @@
 /// 三方
 #import <AFNetworking.h>
 #import <MagicalRecord/MagicalRecord.h>
-
+#import <JSONModel.h>
 ///
+#import "FQAHNetworking.h"
+
 
 #endif /* AppGlobal_h */

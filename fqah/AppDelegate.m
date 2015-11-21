@@ -25,6 +25,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    // Register Splite
+    [MagicalRecord setupCoreDataStackWithStoreNamed:@"FQAHModel.sqlite"];
+    [BaseModel initKeyMapper];
+    // Register Network Monitor
+    [[FQAHReachability sharedInstance] startMonitoringInternetStates];
+    
+    
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     
@@ -80,6 +88,8 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    [[NSManagedObjectContext MR_defaultContext] MR_saveToPersistentStoreAndWait];
+    [MagicalRecord cleanUp];
 }
 
 @end
