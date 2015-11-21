@@ -42,7 +42,7 @@
     BASENavigationController *navCtrlDiscover = [[BASENavigationController alloc] initWithRootViewController:controllerDiscover];
     BASENavigationController *navCtrlSetting = [[BASENavigationController alloc] initWithRootViewController:controllerSetting];
     UITabBarItem *itemHome = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemTopRated tag:1];
-    UITabBarItem *itemSetting = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemBookmarks tag:2];
+    UITabBarItem *itemSetting = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemBookmarks tag:1];
     UITabBarItem *itemMsg = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemFeatured tag:1];
     UITabBarItem *itemDiscover = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemMostViewed tag:1];
     [navCtrlHome setTabBarItem:itemHome];
