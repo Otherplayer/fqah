@@ -10,4 +10,8 @@
 
 @interface BASEViewController : UIViewController
 
+- (void)loadDataFromServer;
+
+
+
 @end

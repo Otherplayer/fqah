@@ -29,8 +29,6 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     
-    
-    
     BASETabBarController *tabBarController = [[BASETabBarController alloc] init];
     
     FHomeController     *controllerHome = [[FHomeController alloc] init];

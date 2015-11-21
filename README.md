@@ -40,6 +40,40 @@
 附录3.
 
 程序基本结构
+AppDelegate
+Models
 
+    |- BaseModel.h
+    |- BaseModel.m
+    |- CollectionModel.h
+    |- CollectionModel.m
+
+Macro
+
+|- AppMacro.h
+    |- NotificationMacro.h
+    |- VendorMacro.h放一些第三方常量
+    |- UtilsMacro.h放的是一些方便使用的宏定义
+
+General
+|- Views
+        |- FQAHScollView
+        |- FQAHPullToRefresh
+        ...
+    | - Categories
+        |- UIViewController+Sizzle
+        |- UIImageView+Downloader
+        ...
+
+Helpers
+
+    |- FQAHShareHelper
+    |- FQAHHelper
+    |- FQAHEmotionHelper
+
+Vendors
+   |- FQAHDataSource 
+
+Resources
     
 

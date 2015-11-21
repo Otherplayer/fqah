@@ -53,6 +53,10 @@
 		63E9E3061BF8C382007C5292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63E9E3081BF8C382007C5292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63F2EC5F1C007C7A00EEDCFA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		63F2EC661C00820C00EEDCFA /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		63F2EC671C0082BC00EEDCFA /* VendorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VendorMacro.h; sourceTree = "<group>"; };
+		63F2EC681C0082F400EEDCFA /* NotificationMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationMacro.h; sourceTree = "<group>"; };
+		63F2EC691C00839300EEDCFA /* AppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
 		7FAD06519212F7EE49EC3589 /* Pods-fqah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fqah.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fqah/Pods-fqah.debug.xcconfig"; sourceTree = "<group>"; };
 		C980173287A649FD8B21C0DD /* libPods-fqah.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fqah.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B9A135B78C04F10249EFB3 /* Pods-fqah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fqah.release.xcconfig"; path = "Pods/Target Support Files/Pods-fqah/Pods-fqah.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,9 +80,10 @@
 				636543C31BFCA08100F4491D /* Controllers */,
 				636543C41BFCA0A600F4491D /* General */,
 				63F2EC631C007EC200EEDCFA /* Models */,
-				63F2EC601C007E4600EEDCFA /* Macro */,
 				63F2EC621C007E9F00EEDCFA /* Vendors */,
+				63F2EC601C007E4600EEDCFA /* Macro */,
 				63F2EC641C007F2500EEDCFA /* Helpers */,
+				63F2EC651C00804600EEDCFA /* Resources */,
 			);
 			path = Section;
 			sourceTree = "<group>";
@@ -210,6 +215,10 @@
 		63F2EC601C007E4600EEDCFA /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				63F2EC691C00839300EEDCFA /* AppMacro.h */,
+				63F2EC661C00820C00EEDCFA /* UtilsMacro.h */,
+				63F2EC681C0082F400EEDCFA /* NotificationMacro.h */,
+				63F2EC671C0082BC00EEDCFA /* VendorMacro.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -240,6 +249,13 @@
 			children = (
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		63F2EC651C00804600EEDCFA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		83F3059E5323DE13460416E1 /* Frameworks */ = {

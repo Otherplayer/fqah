@@ -10,6 +10,8 @@
 
 @implementation BASEViewController
 
+#pragma mark - LifeCircle
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +22,19 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+#pragma mark - Network Methods
+- (void)loadDataFromServer{
+    
+}
+#pragma mark - Action
+
+#pragma mark - Delegate
+
+#pragma mark - Configure
+
+#pragma mark - Private
 
 
 @end
