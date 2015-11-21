@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AFNetworking.h>
 
 @interface FQAHReachability : NSObject
 @property (nonatomic, unsafe_unretained) BOOL isReachable;

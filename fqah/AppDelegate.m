@@ -25,11 +25,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    // Register Network Monitor
+    [[FQAHReachability sharedInstance] startMonitoringInternetStates];
     // Register Splite
     [MagicalRecord setupCoreDataStackWithStoreNamed:@"FQAHModel.sqlite"];
     [BaseModel initKeyMapper];
-    // Register Network Monitor
-    [[FQAHReachability sharedInstance] startMonitoringInternetStates];
     
     
     

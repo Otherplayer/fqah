@@ -28,7 +28,7 @@ NSString *const kIMGKey = @"kIMGKey";
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         shareManager =[FQAHNetworking manager];
-        dispatch_queue_t requestQueue = dispatch_queue_create("com.example.MyQueue", NULL);
+        dispatch_queue_t requestQueue = dispatch_queue_create("com.fqah.MyQueue", NULL);
         shareManager.completionQueue = requestQueue;
         
         shareManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/xml", @"application/json", @"text/xml", @"text/json", @"text/html",nil];

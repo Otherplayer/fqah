@@ -64,7 +64,7 @@ fprintf(stderr, "<%s : %d> %s\n", \
 __LINE__, __func__); \
 (NSLog)((format), ##__VA_ARGS__); \
 fprintf(stderr, \
-"''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''\n" \
+"\n" \
 );} while (0)
 #else
 #define NSLog(...)

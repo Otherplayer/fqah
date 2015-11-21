@@ -17,11 +17,9 @@
 /// 类目
 #import "CategoriesGlobalHeader.h"
 /// 三方
-#import <AFNetworking.h>
 #import <MagicalRecord/MagicalRecord.h>
-#import <JSONModel.h>
 ///
-#import "FQAHNetworking.h"
+#import "FQAHNetworkingManager.h"
 
 
 #endif /* AppGlobal_h */
