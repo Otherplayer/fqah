@@ -8,12 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5BA89ADF1B333156C3B1FBA3 /* libPods-fqah.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C980173287A649FD8B21C0DD /* libPods-fqah.a */; };
-		636543C81BFCA0A600F4491D /* UIView+Ghost.m in Sources */ = {isa = PBXBuildFile; fileRef = 636543C71BFCA0A600F4491D /* UIView+Ghost.m */; };
 		636543CC1BFCA0EB00F4491D /* BASENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636543CB1BFCA0EB00F4491D /* BASENavigationController.m */; };
 		636543CF1BFCA13700F4491D /* BASETabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636543CE1BFCA13700F4491D /* BASETabBarController.m */; };
 		636543D21BFCA17300F4491D /* BASEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636543D11BFCA17300F4491D /* BASEViewController.m */; };
 		636543D61BFD684500F4491D /* FHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636543D51BFD684500F4491D /* FHomeController.m */; };
-		636543D91BFD68AE00F4491D /* UINavigationController+Ghost.m in Sources */ = {isa = PBXBuildFile; fileRef = 636543D81BFD68AE00F4491D /* UINavigationController+Ghost.m */; };
 		638DB61F1BFDCF2400159FC1 /* FMsgController.m in Sources */ = {isa = PBXBuildFile; fileRef = 638DB61E1BFDCF2400159FC1 /* FMsgController.m */; };
 		638DB6221BFDCF3400159FC1 /* FSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 638DB6211BFDCF3400159FC1 /* FSettingController.m */; };
 		638DB6261BFDCF9000159FC1 /* FDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 638DB6251BFDCF9000159FC1 /* FDiscoverController.m */; };
@@ -22,12 +20,12 @@
 		63E9E3021BF8C382007C5292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E9E3001BF8C382007C5292 /* Main.storyboard */; };
 		63E9E3041BF8C382007C5292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E9E3031BF8C382007C5292 /* Assets.xcassets */; };
 		63E9E3071BF8C382007C5292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E9E3051BF8C382007C5292 /* LaunchScreen.storyboard */; };
+		63F2EC701C00844300EEDCFA /* UINavigationController+Ghost.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F2EC6D1C00844300EEDCFA /* UINavigationController+Ghost.m */; };
+		63F2EC711C00844300EEDCFA /* UIView+Ghost.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F2EC6F1C00844300EEDCFA /* UIView+Ghost.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		63047C0B1BFF12D50026CB62 /* AppGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppGlobal.h; sourceTree = "<group>"; };
-		636543C61BFCA0A600F4491D /* UIView+Ghost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Ghost.h"; sourceTree = "<group>"; };
-		636543C71BFCA0A600F4491D /* UIView+Ghost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Ghost.m"; sourceTree = "<group>"; };
 		636543CA1BFCA0EB00F4491D /* BASENavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BASENavigationController.h; sourceTree = "<group>"; };
 		636543CB1BFCA0EB00F4491D /* BASENavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BASENavigationController.m; sourceTree = "<group>"; };
 		636543CD1BFCA13700F4491D /* BASETabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BASETabBarController.h; sourceTree = "<group>"; };
@@ -36,8 +34,6 @@
 		636543D11BFCA17300F4491D /* BASEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BASEViewController.m; sourceTree = "<group>"; };
 		636543D41BFD684500F4491D /* FHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHomeController.h; sourceTree = "<group>"; };
 		636543D51BFD684500F4491D /* FHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHomeController.m; sourceTree = "<group>"; };
-		636543D71BFD68AE00F4491D /* UINavigationController+Ghost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Ghost.h"; sourceTree = "<group>"; };
-		636543D81BFD68AE00F4491D /* UINavigationController+Ghost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Ghost.m"; sourceTree = "<group>"; };
 		638DB61D1BFDCF2400159FC1 /* FMsgController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMsgController.h; sourceTree = "<group>"; };
 		638DB61E1BFDCF2400159FC1 /* FMsgController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMsgController.m; sourceTree = "<group>"; };
 		638DB6201BFDCF3400159FC1 /* FSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSettingController.h; sourceTree = "<group>"; };
@@ -57,6 +53,11 @@
 		63F2EC671C0082BC00EEDCFA /* VendorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VendorMacro.h; sourceTree = "<group>"; };
 		63F2EC681C0082F400EEDCFA /* NotificationMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationMacro.h; sourceTree = "<group>"; };
 		63F2EC691C00839300EEDCFA /* AppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		63F2EC6C1C00844300EEDCFA /* UINavigationController+Ghost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Ghost.h"; sourceTree = "<group>"; };
+		63F2EC6D1C00844300EEDCFA /* UINavigationController+Ghost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Ghost.m"; sourceTree = "<group>"; };
+		63F2EC6E1C00844300EEDCFA /* UIView+Ghost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Ghost.h"; sourceTree = "<group>"; };
+		63F2EC6F1C00844300EEDCFA /* UIView+Ghost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Ghost.m"; sourceTree = "<group>"; };
+		63F2EC721C00847F00EEDCFA /* CategoriesGlobalHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoriesGlobalHeader.h; sourceTree = "<group>"; };
 		7FAD06519212F7EE49EC3589 /* Pods-fqah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fqah.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fqah/Pods-fqah.debug.xcconfig"; sourceTree = "<group>"; };
 		C980173287A649FD8B21C0DD /* libPods-fqah.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fqah.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B9A135B78C04F10249EFB3 /* Pods-fqah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fqah.release.xcconfig"; path = "Pods/Target Support Files/Pods-fqah/Pods-fqah.release.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +82,7 @@
 				636543C41BFCA0A600F4491D /* General */,
 				63F2EC631C007EC200EEDCFA /* Models */,
 				63F2EC621C007E9F00EEDCFA /* Vendors */,
+				63F2EC731C00895E00EEDCFA /* Network */,
 				63F2EC601C007E4600EEDCFA /* Macro */,
 				63F2EC641C007F2500EEDCFA /* Helpers */,
 				63F2EC651C00804600EEDCFA /* Resources */,
@@ -112,10 +114,9 @@
 		636543C51BFCA0A600F4491D /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				636543C61BFCA0A600F4491D /* UIView+Ghost.h */,
-				636543C71BFCA0A600F4491D /* UIView+Ghost.m */,
-				636543D71BFD68AE00F4491D /* UINavigationController+Ghost.h */,
-				636543D81BFD68AE00F4491D /* UINavigationController+Ghost.m */,
+				63F2EC721C00847F00EEDCFA /* CategoriesGlobalHeader.h */,
+				63F2EC6A1C00844300EEDCFA /* Foundation */,
+				63F2EC6B1C00844300EEDCFA /* UIKit */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -258,6 +259,32 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		63F2EC6A1C00844300EEDCFA /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		63F2EC6B1C00844300EEDCFA /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				63F2EC6C1C00844300EEDCFA /* UINavigationController+Ghost.h */,
+				63F2EC6D1C00844300EEDCFA /* UINavigationController+Ghost.m */,
+				63F2EC6E1C00844300EEDCFA /* UIView+Ghost.h */,
+				63F2EC6F1C00844300EEDCFA /* UIView+Ghost.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		63F2EC731C00895E00EEDCFA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Network;
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		83F3059E5323DE13460416E1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -396,12 +423,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F2EC711C00844300EEDCFA /* UIView+Ghost.m in Sources */,
 				636543CF1BFCA13700F4491D /* BASETabBarController.m in Sources */,
 				63E9E2FC1BF8C382007C5292 /* AppDelegate.m in Sources */,
-				636543D91BFD68AE00F4491D /* UINavigationController+Ghost.m in Sources */,
 				636543D21BFCA17300F4491D /* BASEViewController.m in Sources */,
+				63F2EC701C00844300EEDCFA /* UINavigationController+Ghost.m in Sources */,
 				636543CC1BFCA0EB00F4491D /* BASENavigationController.m in Sources */,
-				636543C81BFCA0A600F4491D /* UIView+Ghost.m in Sources */,
 				63E9E2F91BF8C382007C5292 /* main.m in Sources */,
 				638DB61F1BFDCF2400159FC1 /* FMsgController.m in Sources */,
 				638DB6261BFDCF9000159FC1 /* FDiscoverController.m in Sources */,

@@ -9,12 +9,17 @@
 #ifndef AppGlobal_h
 #define AppGlobal_h
 
+/// 宏
 #import "AppMacro.h"
 #import "UtilsMacro.h"
 #import "NotificationMacro.h"
 #import "VendorMacro.h"
+/// 类目
+#import "CategoriesGlobalHeader.h"
+/// 三方
+#import <AFNetworking.h>
+#import <MagicalRecord/MagicalRecord.h>
 
-
-
+///
 
 #endif /* AppGlobal_h */
