@@ -18,6 +18,7 @@
 #import "CategoriesGlobalHeader.h"
 /// 三方
 #import <MagicalRecord/MagicalRecord.h>
+#import <ViewUtils/ViewUtils.h>
 ///
 #import "FQAHNetworkingManager.h"
 

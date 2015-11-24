@@ -20,9 +20,9 @@
 
 
 #ifdef IS_OFF_LINE
-#define FQAH_API @"https://121"
+#define FQAH_API @"https://121.201.63.217:8089/api/0107/"
 #else
-#define FQAH_API @"https://www"          //线上接口
+#define FQAH_API @"https://www.hotyq.com:8099/api/0107/"          //线上接口
 #endif
 
 
