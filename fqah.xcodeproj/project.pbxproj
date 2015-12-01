@@ -45,6 +45,7 @@
 		849935BF1C0442B700EABB6B /* UIControl+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 849935BE1C0442B700EABB6B /* UIControl+Categories.m */; };
 		849935C41C0442D400EABB6B /* UIApplication+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 849935C11C0442D400EABB6B /* UIApplication+Categories.m */; };
 		849935C51C0442D400EABB6B /* NSObject+GGDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 849935C31C0442D400EABB6B /* NSObject+GGDescription.m */; };
+		84BF72AC1C0DA0D1008FBA27 /* UIViewController+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF72AB1C0DA0D1008FBA27 /* UIViewController+Swizzle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -127,6 +128,8 @@
 		849935C11C0442D400EABB6B /* UIApplication+Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Categories.m"; sourceTree = "<group>"; };
 		849935C21C0442D400EABB6B /* NSObject+GGDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GGDescription.h"; sourceTree = "<group>"; };
 		849935C31C0442D400EABB6B /* NSObject+GGDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GGDescription.m"; sourceTree = "<group>"; };
+		84BF72AA1C0DA0D1008FBA27 /* UIViewController+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzle.h"; sourceTree = "<group>"; };
+		84BF72AB1C0DA0D1008FBA27 /* UIViewController+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzle.m"; sourceTree = "<group>"; };
 		C980173287A649FD8B21C0DD /* libPods-fqah.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fqah.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B9A135B78C04F10249EFB3 /* Pods-fqah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fqah.release.xcconfig"; path = "Pods/Target Support Files/Pods-fqah/Pods-fqah.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -356,6 +359,8 @@
 		63F2EC6B1C00844300EEDCFA /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				84BF72AA1C0DA0D1008FBA27 /* UIViewController+Swizzle.h */,
+				84BF72AB1C0DA0D1008FBA27 /* UIViewController+Swizzle.m */,
 				63F2EC6C1C00844300EEDCFA /* UINavigationController+Ghost.h */,
 				63F2EC6D1C00844300EEDCFA /* UINavigationController+Ghost.m */,
 				63F2EC6E1C00844300EEDCFA /* UIView+Ghost.h */,
@@ -603,6 +608,7 @@
 				63F2EC971C008F5B00EEDCFA /* NSURLRequest+Ghost.m in Sources */,
 				63F2EC851C008D5800EEDCFA /* NSArray+Ghost.m in Sources */,
 				63F2ECAC1C0094CB00EEDCFA /* FQAHModel.xcdatamodeld in Sources */,
+				84BF72AC1C0DA0D1008FBA27 /* UIViewController+Swizzle.m in Sources */,
 				63F2EC711C00844300EEDCFA /* UIView+Ghost.m in Sources */,
 				63F2ECA31C0092BA00EEDCFA /* FQAHNetworking.m in Sources */,
 				63F2ECB21C00954300EEDCFA /* FQAHDiskCachedObject.m in Sources */,

@@ -12,6 +12,7 @@ pod 'MBProgressHUD', '~> 0.9'
 pod 'ViewUtils', '~> 1.1.2'
 pod 'NSDate+Calendar', '~> 0.0.1'
 pod 'MTDates', '~> 1.0.3'
+pod 'JRSwizzle', '~> 1.0'
 
 end
 

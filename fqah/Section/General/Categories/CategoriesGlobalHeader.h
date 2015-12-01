@@ -10,5 +10,6 @@
 #define CategoriesGlobalHeader_h
 
 #import "UIView+Ghost.h"
+#import "UIViewController+Swizzle.h"
 
 #endif /* CategoriesGlobalHeader_h */
